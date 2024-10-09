@@ -1,0 +1,65 @@
+
+
+
+
+
+/******************* big screan scope ************************* */
+
+@media screen and (min-width: 1441px) {
+
+    
+
+
+}
+
+/*********************** middle screan scope ******************** */
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+
+
+    
+
+
+
+}
+
+/***********************tablet scope****************/
+
+@media screen and (max-width: 1023px) {
+
+    
+
+
+
+
+
+
+
+}
+
+/*******************large mobile scope*******************/
+
+@media screen and (max-width: 768px){
+
+    
+
+
+
+
+
+
+
+
+}
+
+
+
+/*******************mobile scope*******************/
+@media screen and (max-width: 599px) {
+
+
+
+
+
+
+}

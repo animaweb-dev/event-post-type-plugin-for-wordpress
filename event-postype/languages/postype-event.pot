@@ -1,0 +1,319 @@
+# Copyright (C) 2024 alireza-tayefi
+# This file is distributed under the same license as the event postype plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: event postype 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/event-postype\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-09T22:10:25+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: event-postype\n"
+
+#. Plugin Name of the plugin
+#: event-postype.php
+msgid "event postype"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: event-postype.php
+msgid "https://tnasr.com/tets-plugin"
+msgstr ""
+
+#. Description of the plugin
+#: event-postype.php
+msgid "This plugin will create custom post type and taxonomy"
+msgstr ""
+
+#. Author of the plugin
+#: event-postype.php
+msgid "alireza-tayefi"
+msgstr ""
+
+#. Author URI of the plugin
+#: event-postype.php
+msgid "https://tnasr.com"
+msgstr ""
+
+#: inc/admin/metaboxes.php:6
+msgid "Event Date"
+msgstr ""
+
+#: inc/admin/metaboxes.php:14
+msgid "Event Location"
+msgstr ""
+
+#: post-types/event.php:11
+#: post-types/event.php:35
+msgid "Events"
+msgstr ""
+
+#: post-types/event.php:12
+msgid "Event"
+msgstr ""
+
+#: post-types/event.php:13
+#: templates/archive-event.php:33
+msgid "All Events"
+msgstr ""
+
+#: post-types/event.php:14
+msgid "Event Archives"
+msgstr ""
+
+#: post-types/event.php:15
+msgid "Event Attributes"
+msgstr ""
+
+#: post-types/event.php:16
+msgid "Insert into Event"
+msgstr ""
+
+#: post-types/event.php:17
+msgid "Uploaded to this Event"
+msgstr ""
+
+#: post-types/event.php:18
+msgctxt "event"
+msgid "Featured Image"
+msgstr ""
+
+#: post-types/event.php:19
+msgctxt "event"
+msgid "Set featured image"
+msgstr ""
+
+#: post-types/event.php:20
+msgctxt "event"
+msgid "Remove featured image"
+msgstr ""
+
+#: post-types/event.php:21
+msgctxt "event"
+msgid "Use as featured image"
+msgstr ""
+
+#: post-types/event.php:22
+msgid "Filter Events list"
+msgstr ""
+
+#: post-types/event.php:23
+msgid "Events list navigation"
+msgstr ""
+
+#: post-types/event.php:24
+msgid "Events list"
+msgstr ""
+
+#: post-types/event.php:25
+msgid "New Event"
+msgstr ""
+
+#: post-types/event.php:26
+msgid "Add New"
+msgstr ""
+
+#: post-types/event.php:27
+msgid "Add New Event"
+msgstr ""
+
+#: post-types/event.php:28
+msgid "Edit Event"
+msgstr ""
+
+#: post-types/event.php:29
+msgid "View Event"
+msgstr ""
+
+#: post-types/event.php:30
+msgid "View Events"
+msgstr ""
+
+#: post-types/event.php:31
+msgid "Search Events"
+msgstr ""
+
+#: post-types/event.php:32
+msgid "No Events found"
+msgstr ""
+
+#: post-types/event.php:33
+msgid "No Events found in trash"
+msgstr ""
+
+#: post-types/event.php:34
+msgid "Parent Event:"
+msgstr ""
+
+#. translators: %s: post permalink
+#: post-types/event.php:73
+msgid "Event updated. <a target=\"_blank\" href=\"%s\">View Event</a>"
+msgstr ""
+
+#: post-types/event.php:74
+msgid "Custom field updated."
+msgstr ""
+
+#: post-types/event.php:75
+msgid "Custom field deleted."
+msgstr ""
+
+#: post-types/event.php:76
+msgid "Event updated."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: post-types/event.php:78
+msgid "Event restored to revision from %s"
+msgstr ""
+
+#. translators: %s: post permalink
+#: post-types/event.php:80
+msgid "Event published. <a href=\"%s\">View Event</a>"
+msgstr ""
+
+#: post-types/event.php:81
+msgid "Event saved."
+msgstr ""
+
+#. translators: %s: post permalink
+#: post-types/event.php:83
+msgid "Event submitted. <a target=\"_blank\" href=\"%s\">Preview Event</a>"
+msgstr ""
+
+#. translators: 1: Publish box date format, see https://secure.php.net/date 2: Post permalink
+#: post-types/event.php:85
+msgid "Event scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview Event</a>"
+msgstr ""
+
+#. translators: 1: Publish box date format, see https://secure.php.net/date 2: Post permalink
+#: post-types/event.php:85
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#. translators: %s: post permalink
+#: post-types/event.php:87
+msgid "Event draft updated. <a target=\"_blank\" href=\"%s\">Preview Event</a>"
+msgstr ""
+
+#. translators: %s: Number of Events.
+#: post-types/event.php:108
+msgid "%s Event updated."
+msgid_plural "%s Events updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: post-types/event.php:109
+msgid "1 Event not updated, somebody is editing it."
+msgstr ""
+
+#. translators: %s: Number of Events.
+#: post-types/event.php:111
+msgid "%s Event not updated, somebody is editing it."
+msgid_plural "%s Events not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: Number of Events.
+#: post-types/event.php:113
+msgid "%s Event permanently deleted."
+msgid_plural "%s Events permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: Number of Events.
+#: post-types/event.php:115
+msgid "%s Event moved to the Trash."
+msgid_plural "%s Events moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: Number of Events.
+#: post-types/event.php:117
+msgid "%s Event restored from the Trash."
+msgid_plural "%s Events restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: taxonomies/event-type.php:7
+msgctxt "Taxonomy General Name"
+msgid "Events type"
+msgstr ""
+
+#: taxonomies/event-type.php:10
+msgid "all Event types"
+msgstr ""
+
+#: taxonomies/event-type.php:11
+#: taxonomies/event-type.php:12
+msgid " parent event type"
+msgstr ""
+
+#: taxonomies/event-type.php:13
+msgid "new event type "
+msgstr ""
+
+#: taxonomies/event-type.php:14
+msgid " add event type     "
+msgstr ""
+
+#: taxonomies/event-type.php:15
+msgid "edit event type    "
+msgstr ""
+
+#: taxonomies/event-type.php:16
+msgid "update event type"
+msgstr ""
+
+#: taxonomies/event-type.php:17
+msgid "show event type "
+msgstr ""
+
+#: taxonomies/event-type.php:18
+msgid "separate with \",\" "
+msgstr ""
+
+#: taxonomies/event-type.php:19
+msgid "add/remove event type"
+msgstr ""
+
+#: taxonomies/event-type.php:20
+msgid "select from most used"
+msgstr ""
+
+#: taxonomies/event-type.php:21
+msgid "popular event types"
+msgstr ""
+
+#: taxonomies/event-type.php:22
+msgid "search event type"
+msgstr ""
+
+#: taxonomies/event-type.php:23
+msgid " not found"
+msgstr ""
+
+#: taxonomies/event-type.php:24
+msgid "no terms  "
+msgstr ""
+
+#: taxonomies/event-type.php:25
+msgid " event type list"
+msgstr ""
+
+#: taxonomies/event-type.php:26
+msgid "event type list navigation"
+msgstr ""
+
+#: templates/archive-event.php:19
+msgid "search event"
+msgstr ""
+
+#: templates/archive-event.php:90
+#: templates/taxonomy-event-type.php:52
+msgid "more info"
+msgstr ""
